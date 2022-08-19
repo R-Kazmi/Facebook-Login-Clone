@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    background-color: rgba(182, 182, 245, 0.753);
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+.container .title{
+    height: 100vh;
+    width: 50%;
+}
+.container .title h1{
+    margin-top: 35vh;
+    color: blue;
+    font-size: 3rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+    line-height: 0;
+    margin-left: 11rem;
+}
+.container .title h4{
+    color: black;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 11rem;
+}
+.inputs{
+    height: 100vh;
+    width: 50%;
+}
+.name{
+    margin: 25vh 0 0 25vh;
+    padding: 1rem;
+    width: 20rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.name:focus{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.pass{
+    margin: 2vh 0 0 25vh;
+    padding: 1rem;
+    width: 20rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.pass:focus{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.log{
+    margin: 2vh 0 2vh 25vh;
+    padding: 1rem;
+    width: 22rem;
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+a{
+    margin: 0 0 0 42vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
